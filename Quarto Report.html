@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.475">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Pierre-Maxime Mercier">
+
+<title>Quarto Report</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="Quarto Report_files/libs/clipboard/clipboard.min.js"></script>
+<script src="Quarto Report_files/libs/quarto-html/quarto.js"></script>
+<script src="Quarto Report_files/libs/quarto-html/popper.min.js"></script>
+<script src="Quarto Report_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="Quarto Report_files/libs/quarto-html/anchor.min.js"></script>
+<link href="Quarto Report_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="Quarto Report_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="Quarto Report_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="Quarto Report_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="Quarto Report_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Quarto Report</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Pierre-Maxime Mercier </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>The <strong>Body Mass Index (BMI)</strong> is a widely used indicator to determine whether a person’s weight is healthy or not based on their height and weight. BMI-for-age is a specific type of BMI calculation that takes into account a child’s age and sex, making it a useful tool for monitoring the growth and development of children.</p>
+<p>In recent years, concerns have been raised about the increasing number of children who are overweight or obese. According to the <em>World Health Organization (WHO)</em>, childhood obesity has more than doubled in the past two decades, with an estimated 41 million children under the age of five now considered overweight or obese. The issue of childhood obesity is particularly acute in low- and middle-income countries where rates are increasing at an alarming rate. To monitor the prevalence of childhood obesity, UNICEF, in collaboration with WHO, regularly collects data on the BMI-for-age of children under the age of five. The data is based on a standard deviation (SD) score, which measures how far a child’s BMI-for-age is from the average BMI-for-age of a reference population. When a child’s BMI-for-age is more than three SD above the average, it is considered to be in the &gt;+3 SD category, indicating severe obesity. This category is of particular concern as severe obesity can lead to a range of health problems, including cardiovascular disease, diabetes, and certain types of cancer. UNICEF’s data on BMI-for-age &gt;+3 SD provides valuable insights into the prevalence of severe childhood obesity around the world. The most recent data shows that the problem is most acute in the Pacific Islands, where as many as one in five children under the age of five are classified as severely obese. Other regions with high rates of severe obesity include the Middle East and North Africa, as well as parts of Latin America and the Caribbean. The data also highlights the need for urgent action to address the growing problem of childhood obesity. UNICEF and WHO have called for a range of interventions, including promoting healthy diets and physical activity, improving food environments, and regulating the marketing of unhealthy foods to children.</p>
+<p>In conclusion, UNICEF’s data on BMI-for-age &gt;+3 SD provides an important indicator of the prevalence of severe childhood obesity around the world. The data highlights the urgent need for action to address this growing problem, which poses a major threat to the health and well-being of children around the world.</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="Quarto-Report_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>The graph represents the countries that have been studied. we can see that this map of the world represents the percentage of children with a BMI greater than 3 in the countries concerned, we can see that there are contrasts between the countries, the cursor will help you see them better.</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="Quarto-Report_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>On this diagram, you will see that women are less affected than men by obesity.</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="Quarto-Report_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>On the graph above, we can see the evolution of the number of children affected by obesity in the world through the years. We can see that after a global increase until 2005, the trend is rather decreasing since.</p>
+<p>If we now compare with the graph for Europe only, which can be seen below, we notice that the trend is not the same, with on the contrary an increase in the number of children affected by obesity over the years, shown by the regression line.</p>
+<div class="cell">
+<div class="cell-output cell-output-stderr">
+<pre><code>`geom_smooth()` using formula = 'y ~ x'</code></pre>
+</div>
+<div class="cell-output-display">
+<p><img src="Quarto-Report_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
